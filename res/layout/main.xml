@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:baselineAligned="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/imageView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tiamatbanner" android:layout_weight="0"></ImageView>
+    <LinearLayout android:id="@+id/linearLayout1" android:isScrollContainer="false" android:orientation="vertical" android:layout_weight="0" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:id="@+id/linearLayout3" android:layout_width="match_parent" android:orientation="vertical" android:layout_height="0dp" android:layout_weight=".25">
+            <TextView android:id="@+id/appdescription" android:layout_margin="10dip" android:text="@string/app_description" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+        </LinearLayout>
+        <LinearLayout android:layout_marginTop="10dip" android:baselineAligned="false" android:layout_marginRight="10dip" android:id="@+id/linearLayout2" android:layout_width="match_parent" android:layout_marginBottom="10dip" android:layout_marginLeft="10dip" android:layout_height="0dp" android:layout_weight="1">
+            <TextView android:id="@+id/ChargeLightPref" android:text="@string/toggle_charging_light" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"></TextView>
+            <ToggleButton android:id="@+id/toggleLED" android:layout_width="0dp" android:layout_height="wrap_content" android:text="ToggleButton" android:layout_weight=".25"></ToggleButton>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/linearLayout4" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight=".15" android:layout_marginLeft="10dip" android:layout_marginRight="10dip" android:layout_marginTop="10dip">
+            <Button android:id="@+id/reboot" android:layout_gravity="right" android:text="@string/button_reboot" android:layout_width="match_parent" android:layout_height="match_parent"></Button>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

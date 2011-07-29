@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, TiamatRomUtilitiesActivity!</string>
+    <string name="app_name">Tiamat Rom Utility</string>
+    <string name="toggle_charging_light">Toggle LED Charging Light while XOOM is powered ON.</string>
+    <string name="app_description">This utility is designed to toggle on and off various custom options in the Tiamat ROM.  Most options require a reboot to take effect.  Thank you for using Team Tiamat!</string>
+    <string name="button_reboot">Press this button to reset your XOOM</string>
+</resources>
